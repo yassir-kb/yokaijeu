@@ -1,29 +1,33 @@
 package com.exemple.controller;
 
+
 import com.exemple.model.Joueur;
 import com.exemple.model.Plateau;
+import com.exemple.model.Score;
+
+import java.util.List;
 
 public class Jeux {
-
-
-    public void commencerTour (Joueur joueur, Plateau plateau, boolean statusJeu) { // Arreter le jeu : false / continuer le jeu : true
-        if (statusJeu = true) {
-
-        }
-        else {
-            finDePartie(joueur, plateau);
-            //
-        }
-    }
+    private List<Joueur> players;
+    private Score score;
+    private Plateau plateau;
+    //private AudioFileReader music;
+public initPlateau(Plateau plateau) {
+    plateau.setYokai1("Kitsune Renards", url(carte_rouge));
 
 
 
+    plateau.setYokai5("Kitsune Renards", url(carte_verte));
 
 
 
+    plateau.setYokai9("Kitsune Renards", url(carte violette));
 
-    public void finDePartie (Joueur joueur, Plateau plateau) {
-       // Yokai yokai1 = new Yokai(new Type(), true);
-        //plateau.setYokai1(yokai1);
-    }
+
+
+    plateau.setYokai3("Oni Démons", url(carte_bleue));
+
+
+    plateau.setIndice1("indice_bleu", url(indice_bleu));
+}
 }

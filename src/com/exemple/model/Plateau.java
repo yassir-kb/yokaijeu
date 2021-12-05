@@ -224,4 +224,188 @@ public class Plateau {
     public void setYokai16(Yokai yokai16) {
         this.yokai16 = yokai16;
     }
+
+    public Indice getIndice1() {
+        return indice1;
+    }
+
+    public void setIndice1(Indice indice1) {
+        this.indice1 = indice1;
+    }
+
+    public Indice getIndice2() {
+        return indice2;
+    }
+
+    public void setIndice2(Indice indice2) {
+        this.indice2 = indice2;
+    }
+
+    public Indice getIndice3() {
+        return indice3;
+    }
+
+    public void setIndice3(Indice indice3) {
+        this.indice3 = indice3;
+    }
+
+    public Indice getIndice4() {
+        return indice4;
+    }
+
+    public void setIndice4(Indice indice4) {
+        this.indice4 = indice4;
+    }
+
+    public Indice getIndice5() {
+        return indice5;
+    }
+
+    public void setIndice5(Indice indice5) {
+        this.indice5 = indice5;
+    }
+
+    public Indice getIndice6() {
+        return indice6;
+    }
+
+    public void setIndice6(Indice indice6) {
+        this.indice6 = indice6;
+    }
+
+    public Indice getIndice7() {
+        return indice7;
+    }
+
+    public void setIndice7(Indice indice7) {
+        this.indice7 = indice7;
+    }
+
+    public Indice getIndice8() {
+        return indice8;
+    }
+
+    public void setIndice8(Indice indice8) {
+        this.indice8 = indice8;
+    }
+
+    public Indice getIndice9() {
+        return indice9;
+    }
+
+    public void setIndice9(Indice indice9) {
+        this.indice9 = indice9;
+    }
+
+    public Indice getIndice10() {
+        return indice10;
+    }
+
+    public void setIndice10(Indice indice10) {
+        this.indice10 = indice10;
+    }
+
+    public Indice getIndice11() {
+        return indice11;
+    }
+
+    public void setIndice11(Indice indice11) {
+        this.indice11 = indice11;
+    }
+
+    public Indice getIndice12() {
+        return indice12;
+    }
+
+    public void setIndice12(Indice indice12) {
+        this.indice12 = indice12;
+    }
+
+    public Indice getIndice13() {
+        return indice13;
+    }
+
+    public void setIndice13(Indice indice13) {
+        this.indice13 = indice13;
+    }
+
+    public Indice getIndice14() {
+        return indice14;
+    }
+
+    public void setIndice14(Indice indice14) {
+        this.indice14 = indice14;
+    }
+
+    public Affinite getAffinite1() {
+        return affinite1;
+    }
+
+    public void setAffinite1(Affinite affinite1) {
+        this.affinite1 = affinite1;
+    }
+
+    public Affinite getAffinite2() {
+        return affinite2;
+    }
+
+    public void setAffinite2(Affinite affinite2) {
+        this.affinite2 = affinite2;
+    }
+
+    public Affinite getAffinite3() {
+        return affinite3;
+    }
+
+    public void setAffinite3(Affinite affinite3) {
+        this.affinite3 = affinite3;
+    }
+
+    public Affinite getAffinite4() {
+        return affinite4;
+    }
+
+    public void setAffinite4(Affinite affinite4) {
+        this.affinite4 = affinite4;
+    }
+
+    public Affinite getAffinite5() {
+        return affinite5;
+    }
+
+    public void setAffinite5(Affinite affinite5) {
+        this.affinite5 = affinite5;
+    }
+
+    public Affinite getAffinite6() {
+        return affinite6;
+    }
+
+    public void setAffinite6(Affinite affinite6) {
+        this.affinite6 = affinite6;
+    }
+
+    public Placement getPlacement1() {
+        return placement1;
+    }
+
+    public void setPlacement1(Placement placement1) {
+        this.placement1 = placement1;
+    }
+
+    public Placement getPlacement2() {
+        return placement2;
+    }
+
+    public void setPlacement2(Placement placement2) {
+        this.placement2 = placement2;
+    }
+
+    public Placement getPlacement3() {
+        return placement3;
+    }
+
+    public void setPlacement3(Placement placement3) {
+        this.placement3 = placement3;
+    }
 }
