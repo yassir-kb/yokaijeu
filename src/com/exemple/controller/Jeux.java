@@ -2,10 +2,8 @@ package com.exemple.controller;
 
 import com.exemple.model.Joueur;
 import com.exemple.model.Plateau;
-import com.exemple.model.Type;
-import com.exemple.model.Yokai;
 
-public class Tour {
+public class Jeux {
 
 
     public void commencerTour (Joueur joueur, Plateau plateau, boolean statusJeu) { // Arreter le jeu : false / continuer le jeu : true
@@ -14,6 +12,7 @@ public class Tour {
         }
         else {
             finDePartie(joueur, plateau);
+            //
         }
     }
 

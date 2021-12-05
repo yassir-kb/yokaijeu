@@ -1,27 +1,17 @@
 package com.exemple.model;
 
 public class Joueur {
-    private String name;
-    private int score;
+    private String playerName ;
 
-    public Joueur(String name, int score) {
-        this.name = name;
-        this.score = score;
+    public Joueur(String playerName) {
+        this.playerName = playerName;
     }
 
-    public String getName() {
-        return name;
+    public String getPlayerName() {
+        return playerName;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getScore() {
-        return score;
-    }
-
-    public void setScore(int score) {
-        this.score = score;
+    public void setPlayerName(String playerName) {
+        this.playerName = playerName;
     }
 }

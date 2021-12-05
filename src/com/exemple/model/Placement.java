@@ -1,47 +1,29 @@
 package com.exemple.model;
 
+import javax.swing.*;
+
 public class Placement {
-    private Type ouestNord;
-    private Type nordEst;
-    private Type estSud;
-    private Type sudOuest;
+    private String placementName ;
+    private ImageIcon facePlacement ;
 
-    public Placement(Type ouestNord, Type nordEst, Type estSud, Type sudOuest) {
-        this.ouestNord = ouestNord;
-        this.nordEst = nordEst;
-        this.estSud = estSud;
-        this.sudOuest = sudOuest;
+    public Placement(String placementName, ImageIcon facePlacement) {
+        this.placementName = placementName;
+        this.facePlacement = facePlacement;
     }
 
-    public Type getOuestNord() {
-        return ouestNord;
+    public String getPlacementName() {
+        return placementName;
     }
 
-    public void setOuestNord(Type ouestNord) {
-        this.ouestNord = ouestNord;
+    public void setPlacementName(String placementName) {
+        this.placementName = placementName;
     }
 
-    public Type getNordEst() {
-        return nordEst;
+    public ImageIcon getFacePlacement() {
+        return facePlacement;
     }
 
-    public void setNordEst(Type nordEst) {
-        this.nordEst = nordEst;
-    }
-
-    public Type getEstSud() {
-        return estSud;
-    }
-
-    public void setEstSud(Type estSud) {
-        this.estSud = estSud;
-    }
-
-    public Type getSudOuest() {
-        return sudOuest;
-    }
-
-    public void setSudOuest(Type sudOuest) {
-        this.sudOuest = sudOuest;
+    public void setFacePlacement(ImageIcon facePlacement) {
+        this.facePlacement = facePlacement;
     }
 }

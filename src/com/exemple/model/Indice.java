@@ -1,37 +1,29 @@
 package com.exemple.model;
 
-public class Indice {
-    private Type type;
-    private int numberOfColor;
-    private Boolean faceIndice;
+import javax.swing.*;
 
-    public Indice(Type type, int numberOfColor, boolean faceIndice) {
-        this.type = type;
-        this.numberOfColor = numberOfColor;
+public class Indice {
+    private String indiceName ;
+    private ImageIcon faceIndice ;
+
+    public Indice(String indiceName, ImageIcon faceIndice) {
+        this.indiceName = indiceName;
         this.faceIndice = faceIndice;
     }
 
-    public Type getType() {
-        return type;
+    public String getIndiceName() {
+        return indiceName;
     }
 
-    public void setType(Type type) {
-        this.type = type;
+    public void setIndiceName(String indiceName) {
+        this.indiceName = indiceName;
     }
 
-    public int getNumberOfColor() {
-        return numberOfColor;
-    }
-
-    public void setNumberOfColor(int numberOfColor) {
-        this.numberOfColor = numberOfColor;
-    }
-
-    public boolean isFaceIndice() {
+    public ImageIcon getFaceIndice() {
         return faceIndice;
     }
 
-    public void setFaceIndice(Boolean faceIndice) {
+    public void setFaceIndice(ImageIcon faceIndice) {
         this.faceIndice = faceIndice;
     }
 }

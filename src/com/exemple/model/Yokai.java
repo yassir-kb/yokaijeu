@@ -1,27 +1,29 @@
 package com.exemple.model;
 
-public class Yokai {
-    private Type type;
-    private Boolean faceYokai; // true : visible / false : cache
+import javax.swing.*;
 
-    public Yokai(Type type, Boolean faceYokai) {
-        this.type = type;
+public class Yokai {
+    private  String yokaiName ;
+    private ImageIcon faceYokai ;
+
+    public Yokai(String yokaiName, ImageIcon faceYokai) {
+        this.yokaiName = yokaiName;
         this.faceYokai = faceYokai;
     }
 
-    public Type getType() {
-        return type;
+    public String getYokaiName() {
+        return yokaiName;
     }
 
-    public void setType(Type type) {
-        this.type = type;
+    public void setYokaiName(String yokaiName) {
+        this.yokaiName = yokaiName;
     }
 
-    public Boolean getFaceYokai() {
+    public ImageIcon getFaceYokai() {
         return faceYokai;
     }
 
-    public void setFaceYokai(Boolean faceYokai) {
+    public void setFaceYokai(ImageIcon faceYokai) {
         this.faceYokai = faceYokai;
     }
 }
