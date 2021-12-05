@@ -18,6 +18,32 @@ public class Plateau {
     private Yokai yokai15;
     private Yokai yokai16;
 
+    private Indice indice1;
+    private Indice indice2;
+    private Indice indice3;
+    private Indice indice4;
+    private Indice indice5;
+    private Indice indice6;
+    private Indice indice7;
+    private Indice indice8;
+    private Indice indice9;
+    private Indice indice10;
+    private Indice indice11;
+    private Indice indice12;
+    private Indice indice13;
+    private Indice indice14;
+
+    private Affinite affinite1;
+    private Affinite affinite2;
+    private Affinite affinite3;
+    private Affinite affinite4;
+    private Affinite affinite5;
+    private Affinite affinite6;
+
+    private Placement placement1;
+    private Placement placement2;
+    private Placement placement3;
+
     public Plateau(Yokai yokai1, Yokai yokai2, Yokai yokai3, Yokai yokai4, Yokai yokai5, Yokai yokai6, Yokai yokai7, Yokai yokai8, Yokai yokai9, Yokai yokai10, Yokai yokai11, Yokai yokai12, Yokai yokai13, Yokai yokai14, Yokai yokai15, Yokai yokai16) {
         this.yokai1 = yokai1;
         this.yokai2 = yokai2;
@@ -37,7 +63,38 @@ public class Plateau {
         this.yokai16 = yokai16;
     }
 
-    public Plateau() {
+    public Plateau(Yokai yokai1, Indice indice1, Indice indice2, Indice indice3, Indice indice4, Indice indice5, Indice indice6, Indice indice7, Indice indice8, Indice indice9, Indice indice10, Indice indice11, Indice indice12, Indice indice13, Indice indice14) {
+        this.yokai1 = yokai1;
+        this.indice1 = indice1;
+        this.indice2 = indice2;
+        this.indice3 = indice3;
+        this.indice4 = indice4;
+        this.indice5 = indice5;
+        this.indice6 = indice6;
+        this.indice7 = indice7;
+        this.indice8 = indice8;
+        this.indice9 = indice9;
+        this.indice10 = indice10;
+        this.indice11 = indice11;
+        this.indice12 = indice12;
+        this.indice13 = indice13;
+        this.indice14 = indice14;
+    }
+
+    public Plateau(Affinite affinite1, Affinite affinite2, Affinite affinite3, Affinite affinite4, Affinite affinite5, Affinite affinite6) {
+        this.affinite1 = affinite1;
+        this.affinite2 = affinite2;
+        this.affinite3 = affinite3;
+        this.affinite4 = affinite4;
+        this.affinite5 = affinite5;
+        this.affinite6 = affinite6;
+    }
+
+    public Plateau(Yokai yokai1, Placement placement1, Placement placement2, Placement placement3) {
+        this.yokai1 = yokai1;
+        this.placement1 = placement1;
+        this.placement2 = placement2;
+        this.placement3 = placement3;
     }
 
     public Yokai getYokai1() {
