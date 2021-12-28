@@ -12,11 +12,11 @@ public class Jeux {
     private Plateau plateau;
     //private AudioFileReader music;
 
-    public Plateau initPlateau() {
-        Plateau plateau = new Plateau();
+    public void initPlateau(Plateau plateau) {
 ///Yokais : 16
         File file1 = new File("ressource/carte_rouge.pdf");
-        Yokai yokai1 = new Yokai("Kitsune", file1);
+        File file1$ = new File("ressource/dos_carte.pdf");
+        Yokai yokai1 = new Yokai("Kitsune", file1, file1$);
         plateau.setYokai1(yokai1);
 
         File file2 = new File("ressource/carte_rouge.pdf");
@@ -170,7 +170,39 @@ public class Jeux {
         File fileee3 = new File("ressource/affinite_vert_violette.pdf");
         Placement placement3 = new Placement("affinite_vert_violette", fileee3);
         plateau.setPlacement3(placement3);
+    }
 
-        return plateau;
+    public boolean appeased(Plateau plateau) {
+        return true;
+    }
+
+    public Indice tour(Plateau plateau, Yokai yokai1, Yokai yokai2, Yokai yokai3, Yokai yokai4) {
+        Yokai yokai = new Yokai();
+        yokai1.getFaceYokai();
+        yokai2.getFaceYokai();
+        yokai = yokai4;
+        yokai4 = yokai3;
+        yokai3 = yokai;
+        return plateau.getIndice1();
+    }
+
+    public boolean gameOver(Plateau plateau) {
+        plateau.getYokai1().getFaceYokai();
+        plateau.getYokai2().getFaceYokai();
+        plateau.getYokai3().getFaceYokai();
+        plateau.getYokai4().getFaceYokai();
+        plateau.getYokai5().getFaceYokai();
+        plateau.getYokai6().getFaceYokai();
+        plateau.getYokai7().getFaceYokai();
+        plateau.getYokai8().getFaceYokai();
+        plateau.getYokai9().getFaceYokai();
+        plateau.getYokai10().getFaceYokai();
+        plateau.getYokai11().getFaceYokai();
+        plateau.getYokai12().getFaceYokai();
+        plateau.getYokai13().getFaceYokai();
+        plateau.getYokai14().getFaceYokai();
+        plateau.getYokai15().getFaceYokai();
+        plateau.getYokai16().getFaceYokai();
+        appeased(plateau);
     }
 }
