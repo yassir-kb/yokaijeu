@@ -1,12 +1,12 @@
 package com.exemple.model;
 
-import javax.swing.*;
+import java.io.File;
 
 public class Yokai {
     private  String yokaiName ;
-    private ImageIcon faceYokai ;
+    private File faceYokai ;
 
-    public Yokai(String yokaiName, ImageIcon faceYokai) {
+    public Yokai(String yokaiName, File faceYokai) {
         this.yokaiName = yokaiName;
         this.faceYokai = faceYokai;
     }
@@ -19,11 +19,11 @@ public class Yokai {
         this.yokaiName = yokaiName;
     }
 
-    public ImageIcon getFaceYokai() {
+    public File getFaceYokai() {
         return faceYokai;
     }
 
-    public void setFaceYokai(ImageIcon faceYokai) {
+    public void setFaceYokai(File faceYokai) {
         this.faceYokai = faceYokai;
     }
 }

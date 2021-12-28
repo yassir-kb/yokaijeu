@@ -4,7 +4,10 @@ package com.exemple.controller;
 import com.exemple.model.Joueur;
 import com.exemple.model.Plateau;
 import com.exemple.model.Score;
+import com.exemple.model.Yokai;
 
+import java.awt.*;
+import java.io.File;
 import java.util.List;
 
 public class Jeux {
@@ -12,22 +15,73 @@ public class Jeux {
     private Score score;
     private Plateau plateau;
     //private AudioFileReader music;
-public initPlateau(Plateau plateau) {
-    plateau.setYokai1("Kitsune Renards", url(carte_rouge));
 
+    public Plateau initPlateau(Plateau plateau) {
 
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
 
-    plateau.setYokai5("Kitsune Renards", url(carte_verte));
+        File file2 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai2 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai2(yokai2);
 
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
 
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
 
-    plateau.setYokai9("Kitsune Renards", url(carte violette));
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
 
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
 
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
 
-    plateau.setYokai3("Oni Démons", url(carte_bleue));
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
 
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
 
-    plateau.setIndice1("indice_bleu", url(indice_bleu));
-}
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
+
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
+
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
+
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
+
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
+
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
+
+        File file1 = new File("ressource/carte_rouge.pdf");
+        Yokai yokai1 = new Yokai("Kitsune Renards", file1);
+        plateau.setYokai1(yokai1);
+
+        return plateau;
+    }
 }
