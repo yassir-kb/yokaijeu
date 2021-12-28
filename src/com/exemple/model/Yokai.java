@@ -3,8 +3,8 @@ package com.exemple.model;
 import java.io.File;
 
 public class Yokai {
-    private  String yokaiName ;
-    private File faceYokai ;
+    private String yokaiName;
+    private File faceYokai;
 
     public Yokai(String yokaiName, File faceYokai) {
         this.yokaiName = yokaiName;

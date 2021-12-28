@@ -1,12 +1,13 @@
 package com.exemple.model;
 
-import javax.swing.*;
+
+import java.io.File;
 
 public class Indice {
-    private String indiceName ;
-    private ImageIcon faceIndice ;
+    private String indiceName;
+    private File faceIndice;
 
-    public Indice(String indiceName, ImageIcon faceIndice) {
+    public Indice(String indiceName, File faceIndice) {
         this.indiceName = indiceName;
         this.faceIndice = faceIndice;
     }
@@ -19,11 +20,11 @@ public class Indice {
         this.indiceName = indiceName;
     }
 
-    public ImageIcon getFaceIndice() {
+    public File getFaceIndice() {
         return faceIndice;
     }
 
-    public void setFaceIndice(ImageIcon faceIndice) {
+    public void setFaceIndice(File faceIndice) {
         this.faceIndice = faceIndice;
     }
 }

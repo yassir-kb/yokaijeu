@@ -1,13 +1,14 @@
 package com.exemple.model;
 
-import javax.swing.*;
+
+import java.io.File;
 
 public class Affinite {
 
-    private String affiniteName ;
-   private ImageIcon faceAffinite ;
+    private String affiniteName;
+    private File faceAffinite;
 
-    public Affinite(String affiniteName, ImageIcon faceAffinite) {
+    public Affinite(String affiniteName, File faceAffinite) {
         this.affiniteName = affiniteName;
         this.faceAffinite = faceAffinite;
     }
@@ -20,11 +21,11 @@ public class Affinite {
         this.affiniteName = affiniteName;
     }
 
-    public ImageIcon getFaceAffinite() {
+    public File getFaceAffinite() {
         return faceAffinite;
     }
 
-    public void setFaceAffinite(ImageIcon faceAffinite) {
+    public void setFaceAffinite(File faceAffinite) {
         this.faceAffinite = faceAffinite;
     }
 }

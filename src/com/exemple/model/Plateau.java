@@ -96,7 +96,9 @@ public class Plateau {
         this.placement2 = placement2;
         this.placement3 = placement3;
     }
-    public Plateau() {}
+
+    public Plateau() {
+    }
 
     public Yokai getYokai1() {
         return yokai1;
