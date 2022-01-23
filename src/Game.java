@@ -51,11 +51,16 @@ public class Game {
         // TODO find mouse position to complete the method
     }
 
-    public void cardToMove() {
-        // TODO find the card to move
+    //Move cards
+    public void cardToMove(final Board board, final int row1, final int col1, final int row2, final int col2) {
+        board.familyCards[row1][col1] = board.familyCards[row2][col2];
     }
 
-    public void compareCards() {
-        // TODO complete method
+    public boolean compareCards(final Board board, final int row1, final int col1, final int row2, final int col2) {
+        if (board.familyCards[row1][col1].type.equals(board.familyCards[row2][col2].type)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }

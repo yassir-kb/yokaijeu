@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import assets.*;
 
 public class FamilyCard {
     //private Position position;
