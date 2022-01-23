@@ -1,7 +1,4 @@
-import controller.Window;
-import model.Board;
-import model.Player;
-
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Game {

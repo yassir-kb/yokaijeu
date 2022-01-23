@@ -1,9 +1,5 @@
-package model;
-
 import javax.swing.*;
 import java.awt.*;
-
-import static model.FamilyCardName.*;
 
 public class FamilyCard {
     //private Position position;
@@ -50,23 +46,23 @@ public class FamilyCard {
     public ImageIcon getImageCarte() {
         switch (this.type) {
             case KITSUNE:
-                this.imageCarte = resizeImage(new ImageIcon(getClass().getResource("view/carte_rouge_jpg.jpg")));
+                this.imageCarte = resizeImage(new ImageIcon(getClass().getResource("assets/carte_rouge_jpg.jpg")));
                 break;
 
             case KAPPA:
-                this.imageCarte = resizeImage(new ImageIcon(getClass().getResource("view/carte_verte_jpg.jpg")));
+                this.imageCarte = resizeImage(new ImageIcon(getClass().getResource("assets/carte_verte_jpg.jpg")));
                 break;
 
             case ROKUROKUBI:
-                this.imageCarte = resizeImage(new ImageIcon(getClass().getResource("view/carte_violette_jpg.jpg")));
+                this.imageCarte = resizeImage(new ImageIcon(getClass().getResource("assets/carte_violette_jpg.jpg")));
                 break;
 
             case ONI:
-                this.imageCarte = resizeImage(new ImageIcon(getClass().getResource("view/carte_bleue_jpg.jpg")));
+                this.imageCarte = resizeImage(new ImageIcon(getClass().getResource("assets/carte_bleue_jpg.jpg")));
                 break;
 
             case NONE:
-                this.imageCarte = resizeImage(new ImageIcon(getClass().getResource("view/none.png")));
+                this.imageCarte = resizeImage(new ImageIcon(getClass().getResource("assets/none.png")));
                 break;
         }
         return this.imageCarte;
