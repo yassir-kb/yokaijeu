@@ -1,7 +1,8 @@
-import javax.swing.*;
-import java.awt.*;
-import java.io.IOException;
-import java.io.OptionalDataException;
+package model;
+
+import model.FamilyCard;
+import model.FamilyCardName;
+
 import java.util.ArrayList;
 import java.util.Stack;
 

@@ -1,19 +1,19 @@
+package controller;
+
+import model.Board;
+import model.FamilyCardName;
+
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.image.BufferedImage;
-import java.awt.image.ImageObserver;
-import java.text.AttributedCharacterIterator;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Window extends JFrame {
 
-    private ImageIcon imgCardBack = resizeImage(new ImageIcon(getClass().getResource("assets/dos_carte_jpg.jpg")));
-    private ImageIcon imgCardNone = resizeImage(new ImageIcon(getClass().getResource("assets/none.png")));
+    private ImageIcon imgCardBack = resizeImage(new ImageIcon(getClass().getResource("view/dos_carte_jpg.jpg")));
+    private ImageIcon imgCardNone = resizeImage(new ImageIcon(getClass().getResource("view/none.png")));
 
     private static final int N = 12;
     private static final int TILE_SIZE = 50;
