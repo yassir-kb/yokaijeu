@@ -174,7 +174,7 @@ public class Board {
     //Liste de vide
     private ArrayList<FamilyCard> noneList = new ArrayList<>();
 
-    public Board(){
+    public Board() {
         this.shuffle();
     }
 
@@ -202,8 +202,8 @@ public class Board {
     public void shuffle() {
         this.addAllElementsToShuffleList();
         int random;
-        for (int k = 0; k < 12; k++){
-            for (int l = 0; l < 12; l++){
+        for (int k = 0; k < 12; k++) {
+            for (int l = 0; l < 12; l++) {
                 this.familyCards[k][l] = new FamilyCard(FamilyCardName.NONE);
                 this.familyCards[k][l].setPx(k);
                 this.familyCards[k][l].setPy(l);
@@ -216,12 +216,7 @@ public class Board {
                 this.shuffleList.remove(random);
                 this.familyCards[i][j].setPx(i);
                 this.familyCards[i][j].setPy(j);
-
-                //Pour tester: (cela fonctionne)
-                //System.out.println("x: "+this.familyCards[i][j].px + " y: "+this.familyCards[i][j].py);
-
             }
         }
     }
-
 }

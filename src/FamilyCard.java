@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import assets.*;
 
 public class FamilyCard {
     //private Position position;
@@ -9,7 +10,7 @@ public class FamilyCard {
 
     //Instances pour l'interface graphique
     public ImageIcon imageCarte;
-    private static final int TILE_SIZE = 50;
+    private static final int TILE_SIZE = 60;
 
 
     public FamilyCard(FamilyCardName type) {
